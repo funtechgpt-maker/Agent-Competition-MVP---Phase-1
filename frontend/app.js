@@ -3,7 +3,7 @@
  * Simple vanilla JS client for AI Agent Competition System
  */
 
-const API_BASE = 'http://localhost:3001/api';
+const API_BASE = 'https://agent-competition-mvp-phase-1.onrender.com/api';
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
@@ -254,5 +254,6 @@ async function loadAgents() {
             '<div class="no-data">Error loading agents</div>';
     }
 }
+
 
 
